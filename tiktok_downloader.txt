@@ -1,0 +1,5 @@
+!pip install --upgrade yt-dlp
+
+!pip install -U https://github.com/bashonly/yt-dlp-TTUser/archive/master.zip
+
+!yt-dlp "TTUser:plugins"  -o '/content/tiktok/%(title)s.%(ext)s' https://contoh.com
